@@ -94,7 +94,7 @@
               <th style="text-align: center">FleXounDiT (ours)</th>
               <th style="text-align: center">Make-An-Audio2</th>
               <th style="text-align: center">Audio-LDM2</th>
-              <th style="text-align: center">TANGO2</th> 
+              <th style="text-align: center">TANGO2</th>
               <th style="text-align: center">Stable Audio Open</th>
             </tr>
           </thead>
@@ -213,10 +213,10 @@
 
 
 
-    <!-- <div class="container shadow p-5 mb-5 bg-white rounded">
+    <div class="container shadow p-5 mb-5 bg-white rounded">
       <h3>Variable-length audio generation<a id="diversity"/></h3>
       <p class="mb-0">
-      FleXounDiT can generate audios of variable-length without performance dropping.
+      FleXounDiT can generate audios of variable-length with preserved performance levels.
       </p>
       <div class="container pt-3 table-responsive">
         <table
@@ -225,137 +225,169 @@
         >
           <thead>
             <tr>
-              <th width="40%">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspInput&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
-              <th width="15%">FleXounDiT</th>
-              <th width="15%">Make-An-Audio2</th>
-              <th width="15%">AudioLDM2</th>
-              <th width="15%">TANGO2</th>
+              <th style="text-align: center" > &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspInput&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+              <th style="text-align: center">Duration</th> 
+              <th style="text-align: center">FleXounDiT (ours)</th>
+              <th style="text-align: center">Make-An-Audio2</th>
+              <th style="text-align: center">Audio-LDM2</th>
+              <th style="text-align: center">TANGO2</th>
               <th style="text-align: center">Stable Audio Open</th>
             </tr>
           </thead>
           <tbody>
-            <tr> <td><font size="-1">Wind blowing followed by people speaking then a loud burst of thunder</font></td> 
-              <td><font size="-1">&ltwind blowing& all&gt@&ltpeople speaking& mid&gt@&ltthunder& end&gt</font></td> 
-              <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\Wind-blowing-followed-by-people-speaking-then-a-loud-burst-of-thunder_wind blowing& all_@_people speaking& mid_@_thunder& end_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-              <td><font size="-1">&ltwind blowing& start&gt@&ltpeople speaking& mid&gt@&ltthunder& end&gt</font></td> 
-              <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\Wind-blowing-followed-by-people-speaking-then-a-loud-burst-of-thunder_wind blowing& start_@_people speaking& mid_@_thunder& end_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+            <tr> 
+              <td><font size="-1">Pigeons cooing followed by camera muffling</font></td> 
+              <td><font size="-1">5  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yd1tL-9BILy8_5sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yd1tL-9BILy8_5sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yd1tL-9BILy8_5sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yd1tL-9BILy8_5sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yd1tL-9BILy8_5sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
             </tr>
+            <tr> 
+              <td><font size="-1">Bells ringing repeatedly</font></td> 
+              <td><font size="-1">5  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YH7rd9bZtbgc_5sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YH7rd9bZtbgc_5sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YH7rd9bZtbgc_5sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YH7rd9bZtbgc_5sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YH7rd9bZtbgc_5sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">Middle aged man speaks foreign language while water is trickling</font></td> 
+              <td><font size="-1">5  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yh5_1pnkl_SY_5sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yh5_1pnkl_SY_5sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yh5_1pnkl_SY_5sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yh5_1pnkl_SY_5sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\Yh5_1pnkl_SY_5sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">A motor vehicle engine is revving</font></td> 
+              <td><font size="-1">5  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YilspW7JRjAg_5sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YilspW7JRjAg_5sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YilspW7JRjAg_5sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YilspW7JRjAg_5sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YilspW7JRjAg_5sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">A tractor driving by as a car horn honks while wind blows into a microphone</font></td> 
+              <td><font size="-1">5  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YjjHIINDfE1c_5sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YjjHIINDfE1c_5sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YjjHIINDfE1c_5sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YjjHIINDfE1c_5sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_5secs\YjjHIINDfE1c_5sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+             <!-- <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>  20 secondss                 -->
+
+             <tr> 
+              <td><font size="-1">Pigeons cooing followed by camera muffling</font></td> 
+              <td><font size="-1">20  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yd1tL-9BILy8_20sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yd1tL-9BILy8_20sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yd1tL-9BILy8_20sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yd1tL-9BILy8_20sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yd1tL-9BILy8_20sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">Bells ringing repeatedly</font></td> 
+              <td><font size="-1">20  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YH7rd9bZtbgc_20sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YH7rd9bZtbgc_20sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YH7rd9bZtbgc_20sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YH7rd9bZtbgc_20sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YH7rd9bZtbgc_20sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">Middle aged man speaks foreign language while water is trickling</font></td> 
+              <td><font size="-1">20  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yh5_1pnkl_SY_20sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yh5_1pnkl_SY_20sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yh5_1pnkl_SY_20sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yh5_1pnkl_SY_20sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\Yh5_1pnkl_SY_20sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">A motor vehicle engine is revving</font></td> 
+              <td><font size="-1">20  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YilspW7JRjAg_20sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YilspW7JRjAg_20sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YilspW7JRjAg_20sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YilspW7JRjAg_20sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YilspW7JRjAg_20sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">A tractor driving by as a car horn honks while wind blows into a microphone</font></td> 
+              <td><font size="-1">20  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YjjHIINDfE1c_20sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YjjHIINDfE1c_20sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YjjHIINDfE1c_20sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YjjHIINDfE1c_20sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_20secs\YjjHIINDfE1c_20sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+
+            <!-- <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>  30 secondss                 -->
+
+            <tr> 
+              <td><font size="-1">Pigeons cooing followed by camera muffling</font></td> 
+              <td><font size="-1">30  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yd1tL-9BILy8_30sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yd1tL-9BILy8_30sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yd1tL-9BILy8_30sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yd1tL-9BILy8_30sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yd1tL-9BILy8_30sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">Bells ringing repeatedly</font></td> 
+              <td><font size="-1">30  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YH7rd9bZtbgc_30sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YH7rd9bZtbgc_30sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YH7rd9bZtbgc_30sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YH7rd9bZtbgc_30sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YH7rd9bZtbgc_30sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">Middle aged man speaks foreign language while water is trickling</font></td> 
+              <td><font size="-1">30  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yh5_1pnkl_SY_30sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yh5_1pnkl_SY_30sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yh5_1pnkl_SY_30sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yh5_1pnkl_SY_30sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\Yh5_1pnkl_SY_30sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">A motor vehicle engine is revving</font></td> 
+              <td><font size="-1">30  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YilspW7JRjAg_30sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YilspW7JRjAg_30sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YilspW7JRjAg_30sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YilspW7JRjAg_30sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YilspW7JRjAg_30sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <tr> 
+              <td><font size="-1">A tractor driving by as a car horn honks while wind blows into a microphone</font></td> 
+              <td><font size="-1">30  seconds</font></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YjjHIINDfE1c_30sec_ours.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YjjHIINDfE1c_30sec_maa2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YjjHIINDfE1c_30sec_audioldm2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YjjHIINDfE1c_30sec_tango2.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+              <td><audio controls controlslist="nodownload" class="px-1"> <source src='compare_data\variable_length\compare_demo_30secs\YjjHIINDfE1c_30sec_sao.wav' type="audio/wav">Your browser does not support the audio element.</audio></td>  
+            </tr>
+            <!--
              <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
              <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
              <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
              <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
              <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
              <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
-             <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
-             <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
+             <tr> <td></td> <td></td> <td></td> <td></td> <td></td> </tr> -->
           </tbody>
         </table>
       </div>
-    </div> -->
+    </div> 
 
-<!-- 
-    <div class="container shadow p-5 mb-5 bg-white rounded">
-      <h3>Precise Temporal Control<a id="prompting"/></h3>
-      <p class="mb-0">
-        Due to the ambiguity of natural language, the time period when some sound events occur may not be clearly described, and we can provide more precise temporal control by modifying the order in the structured input.
-      </p>
-      <div class="container pt-3 table-responsive">
-        <table
-          class="table table-hover"
-          id="prompting-table"
-        >
-          <thead>
-            <tr>
-              <th width="20%">Origin Input</th>
-              <th width="20%">Structured Input</th>
-              <th width="20%">Generated Audio</th>
-              <th width="20%">Structured Input</th>
-              <th width="20%">Generated Audio</th>
-            </tr>
-          </thead>
-          <tbody>
-             <tr>
-             </tr>
-             <tr> <td><font size="-1">Wind blowing followed by people speaking then a loud burst of thunder</font></td> 
-                <td><font size="-1">&ltwind blowing& all&gt@&ltpeople speaking& mid&gt@&ltthunder& end&gt</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\Wind-blowing-followed-by-people-speaking-then-a-loud-burst-of-thunder_wind blowing& all_@_people speaking& mid_@_thunder& end_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-                <td><font size="-1">&ltwind blowing& start&gt@&ltpeople speaking& mid&gt@&ltthunder& end&gt</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\Wind-blowing-followed-by-people-speaking-then-a-loud-burst-of-thunder_wind blowing& start_@_people speaking& mid_@_thunder& end_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-             <tr> <td><font size="-1">A train running on railroad tracks followed by a train horn blowing and steam hissing</font></td> 
-                <td><font size="-1">&lttrain running on railroad tracks& all&gt@&lttrain horn blowing& end&gt@&ltsteam hissing& end&gt</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\A-train-running-on-railroad-tracks-followed-by-a-train-horn-blowing-and-steam-hissing_train running on railroad tracks& all_@_train horn blowing& end_@_steam hissing& end_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-                <td><font size="-1">&lttrain running on railroad tracks& all&gt@&lttrain horn blowing& mid&gt@&ltsteam hissing& end&gt</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\A-train-running-on-railroad-tracks-followed-by-a-train-horn-blowing-and-steam-hissing_train running on railroad tracks& all_@_train horn blowing& mid_@_steam hissing& end_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-             <tr> <td><font size="-1">Winds and ocean waves crashing while a chime instrument briefly plays a melody</font></td> 
-                <td><font size="-1">&ltwinds& all&gt@&ltocean waves crashing& all&gt@&ltchime instrument melody& all&gt</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\Winds-and-ocean-waves-crashing-while-a-chime-instrument-briefly-plays-a-melody_winds& all_@_ocean waves crashing& all_@_chime instrument melody& all_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-                <td><font size="-1">&ltwinds& all&gt@&ltocean waves crashing& all&gt@&ltchime instrument melody& mid&gt</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\Winds-and-ocean-waves-crashing-while-a-chime-instrument-briefly-plays-a-melody_winds& all_@_ocean waves crashing& all_@_chime instrument melody& mid_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-            <tr> <td><font size="-1">Constant faint humming and a few light knocks</font></td> 
-              <td><font size="-1">&ltconstant faint humming & all&gt@&lta few light knocks & end&gt</font></td> 
-              <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\Constant-faint-humming-and-a-few-light-knocks_constant faint humming& all_@_a few light knocks& end_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-              <td><font size="-1">&ltconstant faint humming & all&gt@&lta few light knocks & start&gt</font></td> 
-              <td><audio controls controlslist="nodownload" class="px-1"> <source src='data\precise\Constant-faint-humming-and-a-few-light-knocks_constant faint humming& all_@_a few light knocks& start_.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="container shadow p-5 mb-5 bg-white rounded">
-      <h3>Comparison between dual text encoders and only structured text encoder<a id="dual_comparison"></h3>
-      <p class="mb-0">
-        When LLM parsing the original natural language input, some adjective or quantifier may be lost, and sometimes the structured inputs' format is incorrect. Dual text encoders can avoid information loss and are more robust in these situations. 
-      </p>
-      <div class="container pt-3 table-responsive">
-        <table
-          class="table table-hover"
-          id="prompting-table">
-          <thead>
-            <tr>
-              <th width="25%">Origin Input</th>
-              <th width="25%">Wrongly Structured Input</th>
-              <th width="25%">Dual text encoders</th>
-              <th width="25%">Only structured text encoder</th>
-            </tr>
-          </thead>
-          <tbody>
-             <tr>
-             </tr>
-             <tr> <td><font size="-1">A strong torrent of rain is audible outside of a window</font></td> 
-                <td><font size="-1">&ltstrong&gtSound of strong torrent of rain outside window & all&lt/strong&gt</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/dual/A-strong-torrent-of-rain-is-audible-outside-of-a-window.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/structured/A-strong-torrent-of-rain-is-audible-outside-of-a-window.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-              <tr> <td><font size="-1">A motorcycle revving by quickly twice</font></td> 
-                  <td><font size="-1">&ltmotorcycle revving & all&gt@&ltquickly twice & end&gt&lt/quickly&gt</font></td> 
-                  <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/dual/A-motorcycle-revving-by-quickly-twice.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-                  <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/structured/A-motorcycle-revving-by-quickly-twice.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-            <tr> <td><font size="-1">A car moves quickly and is followed by someone walking and other cars</font></td> 
-                <td><font size="-1">&ltcar engine revving & start&gt@&ltcar tires screeching & mid&gt@&ltfootsteps running & mid&gt@&ltother car engines & mid to end&gt</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/dual/A-car-moves-quickly-and-is-followed-by-someone-walking-and-other-cars.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/structured/A-car-moves-quickly-and-is-followed-by-someone-walking-and-other-cars.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-             <tr> <td><font size="-1">A metallic swirling and scraping that gets louder and more irregular</font></td> 
-                <td><font size="-1">&ltmetallic swirling and scraping & all, getting louder and more irregular&gt@</font></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/dual/A-metallic-swirling-and-scraping-that-gets-louder-and-more-irregular.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-                <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/structured/A-metallic-swirling-and-scraping-that-gets-louder-and-more-irregular.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-            <tr> <td><font size="-1">A gusting wind with waves crashing in the background from time to time</font></td> 
-              <td><font size="-1">&ltgusting wind & all&gt@&ltwaves crashing & random intervals&gt</font></td> 
-              <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/dual/A-gusting-wind-with-waves-crashing-in-the-background-from-time-to-time.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> 
-              <td><audio controls controlslist="nodownload" class="px-1"> <source src='data/dual_comparison/structured/A-gusting-wind-with-waves-crashing-in-the-background-from-time-to-time.wav' type="audio/wav">Your browser does not support the audio element.</audio></td> </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="container shadow p-5 mb-5 bg-white rounded">
-      <h3>Broader impact<a id="impact"/></h3>
-      <p class="mb-0">
-        We believe that our T2A work on temporal enhancement can serve as an important stepping stone for future work on generating semantically aligned and temporally consistent audio.
-        And our approach of constructing complex audio and enhancing the data based on LLM can provide inspiration for future work.
-        <br/>
-        At the same time, we acknowledge that FleXounDiT may lead to unintended consequences such as increased unemployment for individuals in related fields such as sound engineering and radio hosting. Furthermore, there are potential concerns regarding the ethics of non-consensual voice cloning or the creation of fake media.
-      </p>
-      <br/>
-    </div> -->
 
 
 
